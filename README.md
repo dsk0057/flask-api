@@ -1,6 +1,6 @@
 # flask-api
 
-***This was built and tested in pycharm. I have not tested with curl command***
+***This was built and tested in pycharm. I have not tested with the curl command.***
 
 Here is the gist of the project:
 
