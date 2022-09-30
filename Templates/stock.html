@@ -1,9 +1,11 @@
 {% extends 'welcome.html' %}
 
+<!--As it extends welcome.html, this block
+    displays when user clicks the link-->
 {% block body %}
-    <form action="/enter_info" method="POST">
-        <p>Enter the stock symbol:</p>
-        <p><input type="text" name="sym"></p>
-        <p><input type="submit" value="submit"></p>
-    </form>
+<form action="/enter_info" method="POST">
+    <p>Enter the stock symbol:</p>
+    <p><input type="text" name="sym"></p>
+    <p><input type="submit" value="submit"></p>
+</form>
 {% endblock %}

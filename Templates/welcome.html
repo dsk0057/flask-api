@@ -5,8 +5,11 @@
     <title>Get the stock data</title>
 </head>
 <body>
+<!--This displays on the top of the page-->
 <h2>Welcome to Stock Info Page {{ name }}</h2>
-<a href ="{{ url_for('stock') }}">Stock Page</a>
+<!--This lets user click the link to go to Stock Page-->
+<a href="{{ url_for('stock') }}">Stock Page</a>
+<!--block so that it can be extended and done something else with-->
 {% block body %}
 
 {% endblock %}
